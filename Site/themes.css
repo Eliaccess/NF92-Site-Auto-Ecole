@@ -1,0 +1,47 @@
+titres
+{
+	font-family:Verdana, "Trebuchet MS", Arial;
+	font-weight:bold;
+	font-size:50px;
+}
+subtitle
+{
+	text-decoration:underline;
+	font-weight:bold;
+	font-family:Verdana, "Trebuchet MS", Arial;
+	font-size:20px;
+}
+subsubtitle
+{
+	text-decoration:underline;
+	font-weight:bold;
+	font-family:Verdana, "Trebuchet MS", Arial;
+	font-size:15px;
+}
+corps
+{
+	font-family:Verdana, "Trebuchet MS", Arial;
+	font-weight:normal;
+	font-size:15px;
+}
+a:link
+{	
+	text-decoration:none;
+	font-family:Verdana, "Trebuchet MS", Arial;
+	font-weight:normal;
+	font-size:20px;
+}
+table
+{
+	font-family:Verdana, "Trebuchet MS", Arial;
+	font-weight:normal;
+	font-size:15px;
+	margin: auto;
+}
+body
+{
+	background-image: url('body-background.jpg');
+	background-size:cover;
+	color: white;
+	text-align: center;
+}

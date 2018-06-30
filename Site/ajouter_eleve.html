@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+	<html lang="fr">
+	<link rel="stylesheet" href="themes.css">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+	<!-- Ces scripts permettent d'afficher le calendrier en java script pour les type date, même sur les PC des salles infos sous Linux -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+  	$( function() {
+    		$( "#datepicker" ).datepicker();		
+  	} );
+	</script>
+<head>
+	<meta charset="utf-8"/>
+</head>
+<body>
+	<titres>Inscription</titres></br>
+
+	<!-- Formulaire pour entrer les infos afin d'ajouter un élève -->
+
+	<table>
+		<form method="Post" action="validation_eleve.php"> <subtitle>
+			<tr><td>Nom :</td>											<td><input type="text" name="nom">		</td></tr>
+			<tr><td>Prénom :</td>										<td><input type="text" name="prenom">	</td></tr>
+			<tr><td>Date de naissance (JJMMAAAA)</td>					<td><input type="text" name="naissance" id="datepicker" value = "01/01/2000"/></td></tr>
+			<tr><td><input type="submit" value="Envoyer"></td>			<td><input type="reset" value="Annuler"></td></tr> </subtitle>
+		</form>
+	</table>
+
+</body>
+</html>
